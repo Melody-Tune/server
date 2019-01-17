@@ -23,7 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors())
 
 //connect to mongoose
-mongoose.connect('mongodb://localhost/melodyTune')
+mongoose.connect('mongodb://localhost/melodyTune', {useNewUrlParser: true})
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
