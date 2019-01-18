@@ -13,6 +13,7 @@ class UserController {
         res.status(201).json(result)
       })
       .catch(err => {
+        console.log("masuk err register")
         res.status(500).json(err.message)
       })
   }

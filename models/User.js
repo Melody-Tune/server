@@ -1,4 +1,5 @@
 const mongoose =require('mongoose')
+const { encrypt } = require('../helpers/bcrypt')
 
 const UserSchema = new mongoose.Schema({
   email: {
@@ -32,6 +33,11 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String
   }
+})
+
+UserSchema.pre('save', function(next){
+  this.password = encrypt(this.password)
+  next()
 })
 
 const User = mongoose.model('User', UserSchema)
