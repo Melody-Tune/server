@@ -38,7 +38,8 @@ class MusicController {
     let body = {
       title: req.body.title,
       artist: req.body.artist,
-      url: req.file.cloudStoragePublicUrl
+      url: req.file.cloudStoragePublicUrl,
+      userId: req.decoded.id
     }
 
     Music
@@ -82,6 +83,17 @@ class MusicController {
             message: "data not found",
             error
           })
+      })
+  }
+
+  static findAllMusic (req, res, next) {
+    Music
+      .find({ userId: req.decoded.id })
+      .then(musics => {
+        res.status(200).json(musics)
+      })
+      .catch(err => {
+        res.status(500).json(err)
       })
   }
 }
