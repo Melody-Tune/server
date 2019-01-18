@@ -11,6 +11,9 @@ const MusicSchema = new mongoose.Schema({
   },
   url: {
     type: String
+  },
+  userId: {
+    type: mongoose.Schema.Types.ObjectId, ref: `User`
   }
 })
 
