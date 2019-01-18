@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "my-portofolio-228606",
+  "private_key_id": "a6122309dd8653801f4dd6f86ba0fca59d9db8e7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDBpSE5reqssOBr\niWKZqluujZ6e+p52thUC7IFk/1mpKg7+AnCUWO5Ia0+XHQswqDRidbyCOoVPe1tw\nFfoCHcD3dPxd5o4/LInvocPFTiDr9YTJIebaLMnYhZvckZuDbYmRd9PwXoPRdrFG\nL2CSwK1r4L2lySOLOk/2am+Xj1jk/5BvkJWX35mw+eWl4sNSJXPeNjIxo0ZYywDo\nctRKhndzGcYE7yJo3iWpIzA4+8UsaNl0tnUWVp21iOcQVFPmqPPq+Fre14Pvbh3f\npokT+xr0jatPRUwu1bZldDyQJ7SW7dov75pc8otdiDp/4FuUMD1qsq7y91YHzANZ\nVhYChVVfAgMBAAECggEAF8DQtYmO2sYLkUVV8fGCs4OtrGSjoX4uT6CBMslbzzNY\niXH1K01JVVrMdYXbhIlte5JjoDnbdmd0TOh1NWM+81vHRSFt23P0K4/VOtOdmDQS\nqLVe4u5RiBzDhKfbwqBiGpTvS3Hci4oarrhLCVVXMH9t4/MrR/3MJzbhH183EUfM\n7ifddYHEJEht68ZKm8BLLPlZcImL4qEyTjofbUQRv2dbfDKEhVh+U83DYBPwMZ28\nCt05r6Rx8ULGdxvAAzYlCnEA07lhCDpsmjZ1264RSXPSHQq0MPTKbCsTAJuSSpEd\nU+2cALP2YOJIqc6QzHY+AMa9vNj7CJ27xXlsS+hpoQKBgQD+OwUlWzjdBTEAnsbD\nltszlcIdo0v+ZEB/nAlUVllbbSt7ShJYqS4aan7SwwrV4aAmwu+KqvrwOxVk4YvJ\nDyBoCdHsh1qc4/dReftEOvi9kvl09lIOdn6hqtaDdzLgqpyndjtjYfN71KcuSQMr\n2g5Mi5b60PF3Nyd8rmwgjaR40QKBgQDC/ikM5rocG7Nsvl6CrQbWjMaLiBmNb1Tx\nupTR2J1cnwFWr5bdsB15EVsdzt+iZrbP6Ks5nxoG6GNnX4fkxdKb+WoXs2rKZaJF\nnB8eLwY4Ewvd60Az08JScgatjEegnecH9N+fEi4wNlkmEcHwnCIuTKmOQDBa5SBT\nfIqvxQp3LwKBgFAr1oyYPs9cQr66U138pbWXxXZJN77KaJiVYU/KRzWQsMSZcD2r\nZFGKQeI/BZy7ISD4Gkg1cRru1ulQQx+teH+2kQ+xA380WJrGB9nVavmFbstWnjvX\nXEmpMSqWHWJCC1K38zR9ACaNwgbTmX9rrVSwNHV2DJ+Wsgocixac9D/xAoGANK8N\nElJImI2Xddsdl/r97PwOLObx2HfrIIDD8sqvAbZoWy6H+Y+69toMn0okvDE6VYRM\ntv3Yv2MMcIKsKdCVLdU+p/au9M5vAJXFBpe3+3CR9Ty5lQcy6qmqSjuroqbnJAwy\nWz1DQ317qsCDgOn+hjnqWefX6Mcda9Ere4AmarsCgYAO6I5ZtmB2dsbyqpWLE8S2\nFbDO0OfjToJiPZmRZ63tOQGfb+U3qq+2UiTDkTE1ZHz2eXR4zghUOIHcVruSrEYS\n8x2tQXzjVsl5O5r3NH4ejV0Dl3YdLCYjHta67Oew/uJ7IlBxx1kigZp59ZsHPMVN\n00myFR3cx20LYtk9fPB/Xg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "melodytune@my-portofolio-228606.iam.gserviceaccount.com",
+  "client_id": "106279655660431838017",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/melodytune%40my-portofolio-228606.iam.gserviceaccount.com"
+}
