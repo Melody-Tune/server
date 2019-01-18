@@ -37,7 +37,8 @@ class MusicController {
   static updload(req, res, next) {
     let body = {
       title: req.body.title,
-      artist: req.body.artist
+      artist: req.body.artist,
+      url: req.file.cloudStoragePublicUrl
     }
 
     Music
